@@ -1,0 +1,198 @@
+.wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0px;
+  width: 100%; }
+
+.logo {
+  background-image: url("../img/logo.png");
+  width: 220px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left; }
+
+header {
+  background-color: #574277;
+  height: 110px;
+  padding-top: 20px;
+  /* Generic a tag styles messing up the blogList. Since these only apply to header & footer, sticking it in here.   */ }
+  header .wrapper ul {
+    float: right;
+    margin-top: 23px;
+    padding: 0;
+    width: calc(65% - 60px);
+    text-align: right; }
+    header .wrapper ul li {
+      display: inline-block;
+      font-family: 'Anton', sans-serif;
+      list-style: none; }
+  header a,
+  header a:visited {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff; }
+  header a:hover,
+  header a:focus,
+  header a:active {
+    text-decoration: none;
+    color: #9481B0;
+    border-color: #9481B0; }
+
+header {
+  background-image: linear-gradient(180deg, rgba(25, 4, 56, 0.7), rgba(7, 85, 131, 0)); }
+
+footer {
+  background-color: #574277;
+  height: 150px;
+  padding-top: 20px;
+  /* Generic a tag styles messing up the blogList. Since these only apply to header & footer, sticking it in here.   */ }
+  footer .wrapper ul {
+    float: right;
+    margin-top: 5px;
+    padding: 0;
+    width: calc(65% - 60px);
+    text-align: right; }
+    footer .wrapper ul li {
+      display: inline-block;
+      font-family: 'Anton', sans-serif;
+      list-style: none; }
+  footer a,
+  footer a:visited {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    color: #ffffff; }
+  footer a:hover,
+  footer a:focus,
+  footer a:active {
+    text-decoration: none;
+    color: #9481B0;
+    border-color: #9481B0; }
+
+footer {
+  background-image: linear-gradient(180deg, rgba(7, 85, 131, 0), rgba(25, 4, 56, 0.7)); }
+  footer .wrapper {
+    padding-left: 10%;
+    padding-right: 10%; }
+    footer .wrapper ul {
+      width: 100%;
+      display: flex;
+      justify-content: space-between; }
+  footer h1 {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px; }
+
+.blogListLink {
+  color: #424242; }
+  .blogListLink > div {
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    transition-duration: 0.4s; }
+
+.blogListLink:hover {
+  color: #424242;
+  text-decoration: none; }
+  .blogListLink:hover > div {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3); }
+
+.imgHelper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle; }
+
+.imgContainer img {
+  width: 100%;
+  border-radius: 50%; }
+
+.contentContainer * {
+  max-width: 95%; }
+
+.blog > div {
+  padding: 25px; }
+
+.blogContent {
+  margin-bottom: 45px; }
+
+.hero {
+  background-image: url("./img/mainpic.jpg");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(20deg, rgba(100, 10, 60, 0.3), rgba(100, 10, 60, 0.3)), url("../img/mainpic.jpg"); }
+
+.slogan {
+  color: white;
+  font-size: 40px;
+  padding-top: 80px;
+  padding-left: 0px;
+  font-family: 'Acme', sans-serif;
+  margin-bottom: 20px;
+  text-shadow: black 0.1em 0.1em 0.2em; }
+
+.maintext {
+  color: white;
+  font-size: 70px;
+  padding-top: 0px;
+  padding-left: 300px;
+  font-family: 'Acme', sans-serif;
+  margin-bottom: 20px;
+  text-shadow: black 0.1em 0.1em 0.2em; }
+
+.card-text {
+  color: white;
+  font-size: 90px;
+  padding-top: 0px;
+  padding-left: 150px;
+  font-family: 'Acme', sans-serif;
+  margin-bottom: 20px;
+  text-shadow: black 0.1em 0.1em 0.2em; }
+
+.card {
+  background: transparent;
+  border: none; }
+
+.card-text {
+  opacity: 0;
+  transform: translateX(40px);
+  font-family: 'Acme', sans-serif; }
+
+.card-text {
+  transition-duration: 1.5s;
+  padding-top: 100px; }
+
+.card:hover .card-text {
+  opacity: 1;
+  transform: translateX(0px);
+  font-family: 'Acme', sans-serif; }
+
+.card-answer p {
+  margin: 0;
+  opacity: 0;
+  transform: translateX(60px);
+  font-family: 'Acme', sans-serif; }
+
+.card-answer p {
+  transition: 5s; }
+
+.card:hover .card-answer p {
+  margin: 0;
+  opacity: 1;
+  transform: translateX(0px);
+  font-family: 'Acme', sans-serif; }
+
+.blog-content {
+  background: #E0E0E0;
+  padding: 50px; }
+  .blog-content h1 {
+    font-family: 'Vollkorn', serif;
+    font-size: 36px; }
+  .blog-content p {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    line-space: 1.15; }
